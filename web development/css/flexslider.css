@@ -1,0 +1,10 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css";
+
+
+.flex-caption { 
+  background: tomato; 
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+}

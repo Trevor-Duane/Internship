@@ -1,0 +1,318 @@
+html{
+	width: 100%
+	height:100%
+}
+body{
+ 
+    background-color: #101010;
+    position: relative;
+
+}
+.container {
+	margin-top: 0px;
+	background-color: #fff;
+	margin: 0 100px 0 100px;
+}
+.header{
+	background-color: #5C375F;
+	width: auto;
+    height:40px;
+    
+}
+.header p, a{
+	text-align: right;
+	font-size: 12px;
+	color: #fff;
+	padding: 6px;
+	text-decoration: none;
+
+}
+/*------------CSS FRO THE SECOND DIV-------*/
+.menu2{
+background-color: #fff;
+width: auto;
+height: 120px;
+
+}
+.menu2 em{
+
+	font-weight: 100;
+	color: #A0A0A0;
+}
+.heading{
+
+	float: left;
+	margin-top: 0px;
+	margin-left: 25px;
+	
+}
+.heading h2::first-letter{
+	font-size: 42px;
+	font-weight: 500;
+}
+.heading p{
+	font-size: 14px;
+	line-height: 10px;
+	padding: 5px;
+
+}
+.heading h2{
+	line-height: 10px;
+
+}
+.nav{
+	float: right;
+	color: #000;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ 
+}
+.nav li a {
+	margin-top: 20px;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 2px solid #F0F0F0;
+    text-transform: uppercase;
+    transition: border-bottom-color 50ms linear 0s;
+ }
+.nav li a:hover, .nav li a.active{
+
+ 	border-bottom-color: #660066;
+ }
+ .nav li {
+    float: right;
+    text-align: center;
+}
+/*-----------css for Third content div-----*/
+
+.content{
+	background-color: #E0E0E0;
+	width: auto;
+	height: 350px;
+	padding: 5px;
+}
+.text {
+	float: right;
+	border: 5px sloid #000;
+	text-align: left;
+	margin-left: 10px;
+	margin-top:90px;
+}
+.text p{
+	text-align: left;
+	color: #B8B8B8;
+	font-size: 14px;
+}
+.text input[type="button"]{
+    background-color: #5C375F;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 5px;
+	border-radius: 8px;
+	border:transparent;
+
+}
+.image {
+	float: left;
+	clear: right;
+	margin-left: -200px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.image img{
+	display: block;
+	height: 250px !important;
+	width: 500px !important;
+	margin-left: 0;
+	
+}
+/*-----------css for the first row with four columns---*/
+.row{
+	
+    box-sizing: border-box;
+    padding-top: 0.1px;
+
+}
+.column {
+    float: left;
+    width: 23.13%;
+    padding: 10px;
+    height: 300px; 
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*----csss for the first four columns-*/
+
+.row .column img{
+
+	width: 75px;
+	height: 75px;
+	margin-left: 80px;
+}
+.row .column{
+	background-color: #ffffff;
+}
+.row .column h2{
+	text-align: center;
+}
+.row .column p{
+	text-align: center;
+	color: #707070;
+	font-size: 12px;
+}
+.row .column h2{
+	font-size: 18px;
+	font-weight: normal;
+}
+/*css for the btn class*/
+.btn{
+	background-color: #ffffff;
+	padding: 5px;
+	
+}
+.btn p{
+text-align: center;
+font-size: 14px;
+color: #707070;
+font-weight: 600;
+font-family: sans-serif;
+
+}
+/*css for the second row */
+.row2{
+	padding-top: 0;
+}
+.row2 .column{
+	background-color: #ffffff;
+}
+.row2 .column h2{
+	font-size: 14px;
+	color: #707070;
+	padding-top: -5px;
+	margin-top: 5px;
+}
+.row2 img{
+	width: 500px;
+	height: 120px;
+	margin-left: 0;
+	padding: 2px;
+
+}
+.row2 .column p{
+	text-align: left;
+	color: #707070;
+	font-size: 12px;
+}
+.row2 .column a{
+	color: #404040;
+	font-weight: lighter;
+	font-size: 14px;
+}
+.row2 .column em{
+	font-size: 10px;
+	white-space: 2px;
+}
+/*css for the footer */
+.footerr{
+	background-color: #181818;
+
+}
+.footerr .column{
+	background-color: #181818;
+}
+.footerr h2{
+	color: #ffffff;
+	font-size: 18px;
+}
+.footerr .column p{
+	font-stretch: condensed;
+	line-height: 50%;
+	text-align: left;
+	color: #707070;
+	font-size: 14px;
+
+}
+.column h2{
+	text-align: left;
+}
+input[type="text"]{
+	background-color: #505050;
+	border-radius: 5px;
+	padding: 5px;
+	border:2px solid transparent;
+
+}
+input[placeholder]{
+	color: #ffffff;
+}
+.column input[type="button5"]{
+	background-color: #5C375F;
+	text-align: center;
+	padding: 8px;
+	border-radius: 8px;
+	color: #FFFFFF;
+	width: 30%;
+	border:2px solid transparent;
+  
+}
+/*css for the footer2 */
+
+.footer2{
+	background-color: #101010;
+	font-size: 12px;
+	width: auto;
+	height: 8cm;
+	border-top: medium solid #181818;
+}
+.footer2 #copyright{
+	float: left;
+	color: #707070;
+
+}
+.footer2 #name{
+	float: right;
+	color: #707070;
+
+}
+/* for the social media icons*/
+.column img{
+	height: 25px;
+	width: 25px;
+
+
+}
+.column #menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.column .table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	list-style: none;
+	float: right;
+	text-align: left;
+	
+}
+ul#horizontal-list li {
+		display: inline;
+}
+
+    
